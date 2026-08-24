@@ -1,0 +1,59 @@
+site_name: Hardware Technical Writing Portfolio
+site_description: Embedded Systems and Hardware Documentation Portfolio
+site_author: Technical Writer
+site_url: https://yourusername.github.io/hardware-portfolio/
+
+theme:
+  name: material
+  palette:
+    # Light mode
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.sections
+    - navigation.expand
+    - content.code.copy
+
+nav:
+  - Overview: index.md
+  - Hardware Specs:
+      - BME280 Datasheet: bme280-datasheet.md
+  - API Reference:
+      - BME280 C-Driver API: bme280-api-reference.md
+  - Guides & Bring-Up:
+      - ESP32-S3 Bring-Up: esp32-bme280-bringup.md
+  - Architecture Deep Dives:
+      - DMA Architecture: dma-architecture-deep-dive.md
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.arithmatex:
+      generic: true
+  - tables
+  - admonition
+  - pymdownx.details
+
+extra_javascript:
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
