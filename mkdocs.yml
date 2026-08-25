@@ -1,7 +1,7 @@
 site_name: Hardware Technical Writing Portfolio
 site_description: Embedded Systems and Hardware Documentation Portfolio
 site_author: Technical Writer
-site_url: https://yourusername.github.io/hardware-portfolio/
+site_url: https://github.com/swaleha2003/hardware-portfolio
 
 theme:
   name: material
