@@ -32,7 +32,7 @@ The <strong>BME280</strong> is a precision digital environmental sensor combinin
 | Pin # | Name | Type | Description |
 | :---: | :--- | :--- | :--- |
 | **1** | `GND` | Supply | Ground connection. |
-| **2** | `CSB` | Digital Input | Chip Select (active low). Connect to `V>DDIO` for I<sup>2</sup>C mode. |
+| **2** | `CSB` | Digital Input | Chip Select (active low). Connect to `VDDIO` for I<sup>2</sup>C mode. |
 | **3** | `SDI` | Digital I/O | Serial Data Input. Functions as `SDA` in I<sup>2</sup>C mode and `MOSI` in SPI mode. |
 | **4** | `SCK` | Digital Input | Serial Clock. Functions as `SCL` in I<sup>2</sup>C mode and `SCK` in SPI mode. |
 | **5** | `SDO` | Digital Output | Serial Data Output (`MISO` in SPI mode). Sets bit 0 of the I<sup>2</sup>C slave address. |
