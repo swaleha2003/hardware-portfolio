@@ -1,4 +1,4 @@
-# BME280 Environmental Sensor :— Technical Specification
+# BME280 Environmental Sensor : Technical Specification
 
 The <strong>BME280</strong> is a precision digital environmental sensor combining relative humidity, barometric pressure, and ambient temperature sensing capabilities in an 8-pin metal-lid Land Grid Array (LGA) package (2.5 mm &times; 2.5 mm &times; 0.93 mm). It communicates over standard I<sup>2</sup>C and SPI digital interfaces with low power consumption for battery-constrained mobile and IoT devices.
 
